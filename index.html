@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a passionate Fresh Software Engineer specializing in full-stack development, modern web technologies, algorithms, and scalable software solutions.">
+    <meta name="keywords"
+        content="Software Engineer, Fresh Graduate, Web Developer, Portfolio, Frontend, Backend, Full Stack, Computer Science">
+    <meta name="author" content="Divya">
+    <title>Software Engineer Portfolio | Divya K M </title>
+
+    <!-- Google Fonts: Modern & Retro Pixel Art Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Wrapper with Ambient Light and Custom Background Image -->
+    <div class="site-bg-overlay" aria-hidden="true"></div>
+
+    <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+    <header class="site-header" id="site-header">
+        <div class="container nav-container">
+            <!-- Brand Logo / Name Placeholder -->
+            <a href="#hero" class="brand-logo" id="brand-logo" aria-label="Home">
+                <span class="logo-code">&lt;</span><span class="logo-name">Divya</span><span
+                    class="logo-code">/&gt;</span>
+                <span class="status-indicator" title="Open to Opportunities"></span>
+            </a>
+
+            <!-- Primary Navigation Links -->
+            <nav class="primary-nav" id="primary-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#timeline" class="nav-link">Timeline</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="#video-intro" class="nav-link">Introduction</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Action Controls & Night Mode Toggle -->
+            <div class="nav-actions">
+                <!-- ==============================================================
+                   NIGHT / DARK MODE TOGGLE PLACEHOLDER
+                   ============================================================== -->
+                <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Night Mode"
+                    title="Toggle Theme">
+                    <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+                    <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+                    <span class="sr-only">Toggle Dark/Light Mode</span>
+                </button>
+
+                <!-- Quick Resume Button -->
+                <a href="resume.pdf" class="btn btn-outline btn-sm nav-resume-btn" download target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                    <span>Resume</span>
+                </a>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button type="button" class="mobile-menu-toggle" id="mobile-menu-toggle" aria-expanded="false"
+                    aria-controls="primary-nav" aria-label="Toggle navigation menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== -->
+    <main id="main-content">
+
+        <!-- ======================================================================
+           1. PIXEL ART HERO SECTION (WITH RETRO HUD & NIGHT MODE CONTROLS)
+           ====================================================================== -->
+        <section class="hero-section pixel-hero-section" id="hero">
+            <!-- Retro CRT Scanline & Pixel Grid Overlay for Hero -->
+            <div class="pixel-scanlines" aria-hidden="true"></div>
+            <div class="pixel-grid-bg" aria-hidden="true"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <!-- Retro 8-bit System Status / Welcome Banner -->
+                    <div class="pixel-hud-bar">
+                        <span class="pixel-status-badge">
+                            <span class="pixel-blink-dot"></span>
+                            <span>[SYS: ONLINE]</span>
+                        </span>
+                        <span class="pixel-hud-item">LVL. 1 FRESH ENGINEER</span>
+                        <span class="pixel-hud-item hp-item">
+                            <i class="fa-solid fa-heart" aria-hidden="true"></i> HP: 100%
+                        </span>
+                    </div>
+
+                    <!-- Welcome Title -->
+                    <div class="pixel-welcome-container">
+                        <span class="pixel-welcome-tag">&gt;&gt; WELCOME PLAYER 1 &lt;&lt;</span>
+                        <h1 class="hero-title pixel-title">
+                            Hello World! I'm <span class="pixel-highlight">Divya K M</span>
+                            <span class="pixel-cursor" aria-hidden="true">_</span>
+                        </h1>
+                    </div>
+
+                    <!-- Brief Tagline & Retro Dialog Box -->
+                    <div class="pixel-dialog-box">
+                        <div class="dialog-header">
+                            <span class="dialog-speaker"><i class="fa-solid fa-terminal" aria-hidden="true"></i> QUEST_LOG.EXE</span>
+                            <span class="dialog-controls">■ ▲ ▼</span>
+                        </div>
+                        <h2 class="hero-subtitle pixel-subtitle">
+                            Fresh Software Engineer &bull; Full-Stack Builder &bull; Problem Solver
+                        </h2>
+                        <p class="hero-description pixel-description">
+                            Equipped with strong fundamentals in Data Structures, Algorithms, RESTful APIs, and Modern Web Engineering. Ready to embark on new engineering quests and deploy scalable solutions from day one.
+                        </p>
+                    </div>
+
+                    <!-- 8-Bit Pixel Action Buttons -->
+                    <div class="hero-cta-group pixel-btn-group">
+                        <a href="#projects" class="btn pixel-btn pixel-btn-primary">
+                            <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
+                            <span>[ VIEW QUESTS ]</span>
+                        </a>
+                        <a href="resume.pdf" class="btn pixel-btn pixel-btn-secondary" download target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-solid fa-file-code" aria-hidden="true"></i>
+                            <span>[ LOOT RESUME ]</span>
+                        </a>
+                        <a href="#contact" class="btn pixel-btn pixel-btn-accent">
+                            <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
+                            <span>[ TRANSMIT MSG ]</span>
+                        </a>
+                    </div>
+
+                    <!-- Social / Developer Profiles (Pixel Styled) -->
+                    <div class="hero-socials pixel-socials">
+                        <span class="social-label pixel-font-sm">CONNECT_NET:</span>
+                        <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer" class="social-icon-btn pixel-icon-btn"
+                            aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/divya-km-49a3937" target="_blank" rel="noopener noreferrer" class="social-icon-btn pixel-icon-btn"
+                            aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:divyakmiseait@gmail.com" class="social-icon-btn pixel-icon-btn" aria-label="Email Me">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Profile Image / Retro Pixel Card -->
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper pixel-card-wrapper">
+                        <!-- Pixel Frame Border with Stepped Corners -->
+                        <div class="profile-frame pixel-frame">
+                            <div class="pixel-frame-inner">
+                                <img src="professionalphoto.jpeg" alt="Divya K M - Software Engineer" class="profile-photo pixel-art-photo"
+                                    id="profile-photo"
+                                    onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80';">
+                            </div>
+                        </div>
+
+                        <!-- 8-Bit Floating Badges -->
+                        <div class="floating-badge pixel-badge badge-top-right">
+                            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                            <div>
+                                <strong class="badge-title pixel-font-xs">CLASS OF 2026</strong>
+                                <span class="badge-sub pixel-font-2xs">B.Tech / B.E. CS</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge pixel-badge badge-bottom-left">
+                            <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+                            <div>
+                                <strong class="badge-title pixel-font-xs">MANA: 100%</strong>
+                                <span class="badge-sub pixel-font-2xs">DSA &bull; Web &bull; APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8-Bit Scroll Indicator -->
+            <a href="#about" class="scroll-down-hint pixel-scroll-hint" aria-label="Scroll down to About section">
+                <span class="pixel-font-xs">&gt;&gt; PRESS [SCROLL] TO EXPLORE &lt;&lt;</span>
+                <i class="fa-solid fa-angles-down" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- ======================================================================
+           2. ABOUT ME SECTION (CLEAN & MINIMALISTIC DESIGN)
+           ====================================================================== -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;about_me&gt;</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">A concise look at my engineering journey, background, and career aspirations.</p>
+                </header>
+
+                <div class="about-grid-minimal">
+                    <!-- Left: Clean Profile Visual Card -->
+                    <div class="about-visual-card">
+                        <div class="about-photo-wrapper">
+                            <img src="professionalphoto.jpeg" alt="Divya K M - Software Engineer" class="about-photo"
+                                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80';">
+                            <div class="photo-ambient-glow"></div>
+                        </div>
+
+                        <!-- Minimal Quick Highlights Summary -->
+                        <div class="about-quick-summary">
+                            <div class="summary-item">
+                                <span class="summary-label">Institution</span>
+                                <strong class="summary-val">AIT (B.E. 2026)</strong>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Academic Score</span>
+                                <strong class="summary-val">8.3 CGPA</strong>
+                            </div>
+                            <div class="summary-item">
+                                <span class="summary-label">Status</span>
+                                <strong class="summary-val text-success">Open to Roles</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Short Bio, Career Highlights & Interests -->
+                    <div class="about-details-content">
+                        <!-- Short Bio -->
+                        <div class="about-card bio-card-clean">
+                            <h3 class="about-heading-clean">
+                                <i class="fa-solid fa-user-astronaut" aria-hidden="true"></i>
+                                <span>Software Engineer &amp; B.E. Graduate</span>
+                            </h3>
+                            <p class="bio-text">
+                                I am <strong>Divya K M</strong>, a motivated and enthusiastic <strong>Bachelor of Engineering (B.E.)</strong> student at <strong>AIT</strong> (Class of 2026, <strong>8.3 CGPA</strong>) with a strong interest in software development and modern web technologies. 
+                            </p>
+                            <p class="bio-text">
+                                Driven by curiosity and structured thinking, I focus on building reliable web interfaces, writing clean code in <strong>Java</strong>, and designing practical digital solutions. I am actively seeking an opportunity to apply my programming and problem-solving skills in a professional environment, while continuously learning and contributing to innovative engineering projects.
+                            </p>
+                        </div>
+
+                        <!-- Career Highlights & Personal Interests -->
+                        <div class="about-split-cards">
+                            <div class="about-card highlight-box-clean">
+                                <h4 class="card-mini-title">
+                                    <i class="fa-solid fa-trophy" aria-hidden="true"></i> Career Highlights
+                                </h4>
+                                <ul class="minimal-list">
+                                    <li><strong>8.3 CGPA</strong> in Bachelor of Engineering (B.E.) at AIT.</li>
+                                    <li><strong>80%</strong> in 12th/PUC (St. Marys PU College) &amp; <strong>87%</strong> in 10th/SSLC (Jnana Bharathi English School).</li>
+                                    <li>Built practical academic systems: <em>Rain Water Detection System</em> &amp; <em>Hospital Management System</em>.</li>
+                                </ul>
+                            </div>
+
+                            <div class="about-card highlight-box-clean">
+                                <h4 class="card-mini-title">
+                                    <i class="fa-solid fa-heart" aria-hidden="true"></i> Personal Interests
+                                </h4>
+                                <ul class="minimal-list">
+                                    <li>Crafting responsive web applications with <strong>HTML, CSS &amp; JavaScript</strong>.</li>
+                                    <li>Algorithmic problem solving and data structures in <strong>Java</strong>.</li>
+                                    <li>Exploring modern frontend frameworks &amp; version control workflows on <strong>GitHub</strong>.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Technical Skills (Directly Extracted from Resume) -->
+                        <div class="about-card resume-skills-card">
+                            <h4 class="card-mini-title">
+                                <i class="fa-solid fa-code" aria-hidden="true"></i> Technical Skills (From Resume)
+                            </h4>
+                            <div class="skills-categories-minimal">
+                                <div class="skill-category-minimal">
+                                    <span class="skill-cat-title">Programming:</span>
+                                    <div class="skill-pills">
+                                        <span class="skill-pill highlight-pill">Java</span>
+                                        <span class="skill-pill">C (Basic)</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category-minimal">
+                                    <span class="skill-cat-title">Web Technologies:</span>
+                                    <div class="skill-pills">
+                                        <span class="skill-pill">HTML</span>
+                                        <span class="skill-pill">CSS</span>
+                                        <span class="skill-pill">JavaScript</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category-minimal">
+                                    <span class="skill-cat-title">Tools:</span>
+                                    <div class="skill-pills">
+                                        <span class="skill-pill">GitHub</span>
+                                        <span class="skill-pill">Microsoft Excel</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category-minimal">
+                                    <span class="skill-cat-title">Frameworks:</span>
+                                    <div class="skill-pills">
+                                        <span class="skill-pill">Basic knowledge of frameworks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Key Strengths (From Resume) -->
+                        <div class="about-card strengths-card-clean">
+                            <h4 class="card-mini-title">
+                                <i class="fa-solid fa-award" aria-hidden="true"></i> Key Strengths
+                            </h4>
+                            <div class="strengths-tags-clean">
+                                <span class="strength-tag"><i class="fa-solid fa-check"></i> Problem Solving</span>
+                                <span class="strength-tag"><i class="fa-solid fa-check"></i> Teamwork</span>
+                                <span class="strength-tag"><i class="fa-solid fa-check"></i> Quick Learning</span>
+                                <span class="strength-tag"><i class="fa-solid fa-check"></i> Communication</span>
+                                <span class="strength-tag"><i class="fa-solid fa-check"></i> Adaptability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           3. SKILLS & TECH STACK SECTION (INTERACTIVE PROGRESS BARS & ICONS)
+           ====================================================================== -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;competencies&gt;</span>
+                    <h2 class="section-title">Technical Skills &amp; Core Competencies</h2>
+                    <p class="section-subtitle">A comprehensive breakdown of programming languages, web technologies, developer tools, and engineering strengths verified from my resume.</p>
+                </header>
+
+                <div class="skills-showcase-grid">
+
+                    <!-- ==========================================================
+                       SKILL CATEGORY 1: PROGRAMMING LANGUAGES
+                       Represents core programming language proficiency from resume (Java, C)
+                       ========================================================== -->
+                    <div class="skill-category-card interactive-skill-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-glow-java">
+                                <i class="fa-solid fa-code" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Programming Languages</h3>
+                                <span class="category-subtitle">Core coding &amp; OOP foundations</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-progress-list">
+                            <!-- Skill Item: Java (Primary Language from Resume) -->
+                            <div class="skill-progress-item" data-skill="Java">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-brands fa-java skill-brand-icon java-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">Java</strong>
+                                        <span class="skill-badge-pill">Core &amp; OOPs</span>
+                                    </div>
+                                    <span class="skill-percent-val">88%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency 88%">
+                                    <div class="skill-progress-fill fill-java" style="--target-width: 88%;"></div>
+                                </div>
+                                <span class="skill-context-note">Primary language for data structures, algorithms &amp; backend systems.</span>
+                            </div>
+
+                            <!-- Skill Item: C (Basic Fundamentals from Resume) -->
+                            <div class="skill-progress-item" data-skill="C">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-solid fa-c skill-brand-icon c-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">C Programming</strong>
+                                        <span class="skill-badge-pill">Basic</span>
+                                    </div>
+                                    <span class="skill-percent-val">75%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="C Programming proficiency 75%">
+                                    <div class="skill-progress-fill fill-c" style="--target-width: 75%;"></div>
+                                </div>
+                                <span class="skill-context-note">Algorithmic foundations, pointers, memory concepts &amp; procedural logic.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========================================================
+                       SKILL CATEGORY 2: WEB TECHNOLOGIES
+                       Represents web technologies from resume (HTML, CSS, JavaScript)
+                       ========================================================== -->
+                    <div class="skill-category-card interactive-skill-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-glow-web">
+                                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Web Technologies</h3>
+                                <span class="category-subtitle">Modern frontend engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-progress-list">
+                            <!-- Skill Item: HTML5 (From Resume) -->
+                            <div class="skill-progress-item" data-skill="HTML5">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-brands fa-html5 skill-brand-icon html-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">HTML5</strong>
+                                        <span class="skill-badge-pill">Semantic</span>
+                                    </div>
+                                    <span class="skill-percent-val">92%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency 92%">
+                                    <div class="skill-progress-fill fill-html" style="--target-width: 92%;"></div>
+                                </div>
+                                <span class="skill-context-note">Semantic page layout, accessibility (ARIA), and modern web standards.</span>
+                            </div>
+
+                            <!-- Skill Item: CSS3 (From Resume) -->
+                            <div class="skill-progress-item" data-skill="CSS3">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-brands fa-css3-alt skill-brand-icon css-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">CSS3</strong>
+                                        <span class="skill-badge-pill">Responsive</span>
+                                    </div>
+                                    <span class="skill-percent-val">88%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency 88%">
+                                    <div class="skill-progress-fill fill-css" style="--target-width: 88%;"></div>
+                                </div>
+                                <span class="skill-context-note">Flexbox, Grid, media queries, CSS variables &amp; pixel-perfect styling.</span>
+                            </div>
+
+                            <!-- Skill Item: JavaScript (From Resume) -->
+                            <div class="skill-progress-item" data-skill="JavaScript">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-brands fa-js skill-brand-icon js-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">JavaScript</strong>
+                                        <span class="skill-badge-pill">ES6+</span>
+                                    </div>
+                                    <span class="skill-percent-val">82%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 82%">
+                                    <div class="skill-progress-fill fill-js" style="--target-width: 82%;"></div>
+                                </div>
+                                <span class="skill-context-note">DOM manipulation, asynchronous events, API integration &amp; dynamic logic.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========================================================
+                       SKILL CATEGORY 3: TOOLS & PLATFORMS
+                       Represents developer tools from resume (GitHub, Microsoft Excel)
+                       ========================================================== -->
+                    <div class="skill-category-card interactive-skill-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-glow-tools">
+                                <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Tools &amp; Frameworks</h3>
+                                <span class="category-subtitle">Productivity &amp; framework knowledge</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-progress-list">
+                            <!-- Skill Item: GitHub / Git (From Resume) -->
+                            <div class="skill-progress-item" data-skill="GitHub">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-brands fa-github skill-brand-icon github-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">GitHub / Git</strong>
+                                        <span class="skill-badge-pill">Version Control</span>
+                                    </div>
+                                    <span class="skill-percent-val">85%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="GitHub proficiency 85%">
+                                    <div class="skill-progress-fill fill-github" style="--target-width: 85%;"></div>
+                                </div>
+                                <span class="skill-context-note">Source control, commit management, branching, and open-source workflows.</span>
+                            </div>
+
+                            <!-- Skill Item: Microsoft Excel (From Resume) -->
+                            <div class="skill-progress-item" data-skill="Excel">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-solid fa-file-excel skill-brand-icon excel-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">Microsoft Excel</strong>
+                                        <span class="skill-badge-pill">Analytics</span>
+                                    </div>
+                                    <span class="skill-percent-val">85%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Microsoft Excel proficiency 85%">
+                                    <div class="skill-progress-fill fill-excel" style="--target-width: 85%;"></div>
+                                </div>
+                                <span class="skill-context-note">Data organization, formula functions, structured reporting &amp; sheet modeling.</span>
+                            </div>
+
+                            <!-- Skill Item: Frameworks Knowledge (From Resume) -->
+                            <div class="skill-progress-item" data-skill="Frameworks">
+                                <div class="skill-info-row">
+                                    <div class="skill-name-wrap">
+                                        <i class="fa-solid fa-cubes skill-brand-icon framework-color" aria-hidden="true"></i>
+                                        <strong class="skill-name">Web Frameworks</strong>
+                                        <span class="skill-badge-pill">Foundational</span>
+                                    </div>
+                                    <span class="skill-percent-val">70%</span>
+                                </div>
+                                <div class="skill-progress-track" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Frameworks knowledge 70%">
+                                    <div class="skill-progress-fill fill-framework" style="--target-width: 70%;"></div>
+                                </div>
+                                <span class="skill-context-note">Basic knowledge of UI component architectures &amp; web framework paradigms.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ==========================================================
+                       SKILL CATEGORY 4: KEY CORE STRENGTHS
+                       Represents professional strengths from resume (Problem Solving, Teamwork, etc.)
+                       ========================================================== -->
+                    <div class="skill-category-card interactive-skill-card">
+                        <div class="category-header">
+                            <div class="category-icon icon-glow-strengths">
+                                <i class="fa-solid fa-brain" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Key Core Strengths</h3>
+                                <span class="category-subtitle">Engineering mindset &amp; interpersonal skills</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-strengths-grid">
+                            <!-- Strength Item: Problem Solving -->
+                            <div class="strength-card-item">
+                                <div class="strength-icon-box"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i></div>
+                                <div>
+                                    <strong class="strength-title">Problem Solving</strong>
+                                    <p class="strength-desc">Structured analytical approach to debugging &amp; algorithm design.</p>
+                                </div>
+                            </div>
+
+                            <!-- Strength Item: Teamwork -->
+                            <div class="strength-card-item">
+                                <div class="strength-icon-box"><i class="fa-solid fa-users-gear" aria-hidden="true"></i></div>
+                                <div>
+                                    <strong class="strength-title">Teamwork</strong>
+                                    <p class="strength-desc">Collaborative peer coding, project coordination &amp; shared accountability.</p>
+                                </div>
+                            </div>
+
+                            <!-- Strength Item: Quick Learning -->
+                            <div class="strength-card-item">
+                                <div class="strength-icon-box"><i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i></div>
+                                <div>
+                                    <strong class="strength-title">Quick Learning</strong>
+                                    <p class="strength-desc">Rapidly acquiring new tools, frameworks &amp; evolving engineering patterns.</p>
+                                </div>
+                            </div>
+
+                            <!-- Strength Item: Communication & Adaptability -->
+                            <div class="strength-card-item">
+                                <div class="strength-icon-box"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
+                                <div>
+                                    <strong class="strength-title">Communication &amp; Adaptability</strong>
+                                    <p class="strength-desc">Clear technical articulation and seamless transition across dynamic project needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           4. CAREER & ACADEMIC TIMELINE COMPONENT (ROUNDED CARDS & HOVER EFFECTS)
+           ====================================================================== -->
+        <section class="section timeline-section" id="timeline">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;journey_timeline&gt;</span>
+                    <h2 class="section-title">Milestones &amp; Academic Timeline</h2>
+                    <p class="section-subtitle">A chronological view of my academic credentials, major projects, and engineering journey.</p>
+                </header>
+
+                <div class="timeline-container-modern">
+                    <!-- Timeline Central Line Glow -->
+                    <div class="timeline-track-line" aria-hidden="true"></div>
+
+                    <!-- Milestone 1: B.E. at AIT (Education) -->
+                    <div class="timeline-card-wrapper" data-category="education">
+                        <div class="timeline-node-icon icon-node-edu">
+                            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        <div class="timeline-card-modern">
+                            <div class="timeline-card-header">
+                                <span class="timeline-type-badge badge-edu"><i class="fa-solid fa-university"></i> Education</span>
+                                <time class="timeline-period-badge" datetime="2022/2026">2022 &ndash; 2026</time>
+                            </div>
+                            <h3 class="timeline-event-title">Bachelor of Engineering (B.E.)</h3>
+                            <h4 class="timeline-institution">
+                                <i class="fa-solid fa-building-columns" aria-hidden="true"></i> AIT (Adichunchanagiri / Acharya Institute of Technology)
+                            </h4>
+                            <p class="timeline-event-desc">
+                                Pursuing rigorous undergraduate engineering studies with emphasis on Core Java, Object-Oriented Design, Web Technologies, Database Management, and Data Structures. Consistently maintaining an outstanding academic score.
+                            </p>
+                            <div class="timeline-highlights-row">
+                                <span class="highlight-chip chip-accent"><i class="fa-solid fa-star"></i> 8.3 CGPA</span>
+                                <span class="highlight-chip">Computer Science &amp; Eng.</span>
+                                <span class="highlight-chip">Class of 2026</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 2: Hospital Management System (Major Project) -->
+                    <div class="timeline-card-wrapper" data-category="project">
+                        <div class="timeline-node-icon icon-node-proj">
+                            <i class="fa-solid fa-hospital-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="timeline-card-modern">
+                            <div class="timeline-card-header">
+                                <span class="timeline-type-badge badge-proj"><i class="fa-solid fa-folder-open"></i> Major Project</span>
+                                <time class="timeline-period-badge" datetime="2024/2025">2024 &ndash; 2025</time>
+                            </div>
+                            <h3 class="timeline-event-title">Hospital Management System</h3>
+                            <h4 class="timeline-institution">
+                                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Academic Software Project
+                            </h4>
+                            <p class="timeline-event-desc">
+                                Engineered a complete software platform to efficiently manage patient records, doctor allocations, appointment scheduling, and hospital operations, eliminating paperwork and accelerating healthcare administration.
+                            </p>
+                            <div class="timeline-highlights-row">
+                                <span class="highlight-chip chip-accent">Java &amp; Database</span>
+                                <span class="highlight-chip">HTML5 / CSS3</span>
+                                <span class="highlight-chip">Management Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 3: Rain Water Detection System (Major Project) -->
+                    <div class="timeline-card-wrapper" data-category="project">
+                        <div class="timeline-node-icon icon-node-iot">
+                            <i class="fa-solid fa-cloud-showers-water" aria-hidden="true"></i>
+                        </div>
+                        <div class="timeline-card-modern">
+                            <div class="timeline-card-header">
+                                <span class="timeline-type-badge badge-iot"><i class="fa-solid fa-microchip"></i> Major Project</span>
+                                <time class="timeline-period-badge" datetime="2024/2025">2024 &ndash; 2025</time>
+                            </div>
+                            <h3 class="timeline-event-title">Rain Water Detection System</h3>
+                            <h4 class="timeline-institution">
+                                <i class="fa-solid fa-seedling" aria-hidden="true"></i> Academic Environmental Project
+                            </h4>
+                            <p class="timeline-event-desc">
+                                Developed a smart detection system to monitor rainwater presence in real time. Provides critical telemetry for effective water resource collection, automated storage mechanisms, and environmental conservation.
+                            </p>
+                            <div class="timeline-highlights-row">
+                                <span class="highlight-chip chip-accent">Sensors &amp; Logic</span>
+                                <span class="highlight-chip">Real-time Telemetry</span>
+                                <span class="highlight-chip">Water Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 4: 12th / PUC (Education) -->
+                    <div class="timeline-card-wrapper" data-category="education">
+                        <div class="timeline-node-icon icon-node-puc">
+                            <i class="fa-solid fa-school" aria-hidden="true"></i>
+                        </div>
+                        <div class="timeline-card-modern">
+                            <div class="timeline-card-header">
+                                <span class="timeline-type-badge badge-puc"><i class="fa-solid fa-book-bookmark"></i> Pre-University</span>
+                                <time class="timeline-period-badge" datetime="2023/2025">2025</time>
+                            </div>
+                            <h3 class="timeline-event-title">12th / PUC (Pre-University Course)</h3>
+                            <h4 class="timeline-org timeline-institution">
+                                <i class="fa-solid fa-building-columns" aria-hidden="true"></i> St. Marys PU College
+                            </h4>
+                            <p class="timeline-event-desc">
+                                Completed Senior Secondary Pre-University coursework focusing on mathematical foundations, science, and analytical reasoning with first-class distinction.
+                            </p>
+                            <div class="timeline-highlights-row">
+                                <span class="highlight-chip chip-accent"><i class="fa-solid fa-award"></i> 80% Score</span>
+                                <span class="highlight-chip">Science &amp; Mathematics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Milestone 5: 10th / SSLC (Education) -->
+                    <div class="timeline-card-wrapper" data-category="education">
+                        <div class="timeline-node-icon icon-node-sslc">
+                            <i class="fa-solid fa-award" aria-hidden="true"></i>
+                        </div>
+                        <div class="timeline-card-modern">
+                            <div class="timeline-card-header">
+                                <span class="timeline-type-badge badge-sslc"><i class="fa-solid fa-medal"></i> Secondary School</span>
+                                <time class="timeline-period-badge" datetime="2023">2023</time>
+                            </div>
+                            <h3 class="timeline-event-title">10th / SSLC (Secondary School Leaving Certificate)</h3>
+                            <h4 class="timeline-org timeline-institution">
+                                <i class="fa-solid fa-school-flag" aria-hidden="true"></i> Jnana Bharathi English School
+                            </h4>
+                            <p class="timeline-event-desc">
+                                Graduated with high academic distinction, building core fundamentals in scientific principles, English communication, and mathematics.
+                            </p>
+                            <div class="timeline-highlights-row">
+                                <span class="highlight-chip chip-accent"><i class="fa-solid fa-trophy"></i> 87% Score</span>
+                                <span class="highlight-chip">Distinction Awardee</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           5. PROJECTS SECTION (WITH CLICKABLE THUMBNAILS & LIGHTBOX DETAIL VIEW)
+           ======================================================================
+           HOW THUMBNAILS CONNECT TO PROJECT DETAILS:
+           1. Each thumbnail container (.project-thumbnail-wrapper) has 'role="button"' and 'tabindex="0"'.
+           2. Data attributes ('data-img-src', 'data-project-title', 'data-project-desc', 'data-project-link')
+              store metadata directly on the thumbnail element.
+           3. When a user clicks or presses Enter/Space on any thumbnail, JavaScript extracts these 
+              data attributes and injects them into the global Lightbox Modal (#project-modal).
+           4. Each card also provides direct action links ("View Code" on GitHub and "Detailed Preview").
+           ====================================================================== -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;featured_projects&gt;</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Real-world software engineering and academic projects. Click any thumbnail below to launch the detailed inspection modal or view the source repository.</p>
+                </header>
+
+                <!-- Responsive Grid with Consistent Margins & Card Gaps -->
+                <div class="projects-grid-modern">
+
+                    <!-- ==========================================================
+                       PROJECT 1: RAIN WATER DETECTION SYSTEM (Academic Project)
+                       Connected via data-img-src & data-project-title to #project-modal
+                       ========================================================== -->
+                    <article class="project-card-modern" data-project="rainwater">
+                        <!-- Clickable Thumbnail Container: Opens detailed lightbox modal on click/Enter -->
+                        <div class="project-thumbnail-wrapper" role="button" tabindex="0"
+                            aria-label="View full details and preview for Rain Water Detection System"
+                            data-img-src="https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=1200&q=80"
+                            data-project-title="Rain Water Detection System"
+                            data-project-desc="Developed a dedicated rain water detection system to detect the presence of rainwater and provide timely telemetry for monitoring. Enables automated water management by supporting efficient collection, storage, and ecological utilization of rainwater."
+                            data-project-link="https://github.com/Divya-iseait">
+                            
+                            <!-- Category Badge -->
+                            <div class="project-tag-pill">Academic Project</div>
+                            
+                            <!-- Thumbnail Image with Smooth Hover Zoom -->
+                            <img src="https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=800&q=80"
+                                alt="Rain Water Detection System Thumbnail" class="project-thumb-img" loading="lazy">
+                            
+                            <!-- Clickable Overlay Hint (Fades in on hover/focus) -->
+                            <div class="thumbnail-hover-overlay">
+                                <div class="overlay-action-btn">
+                                    <i class="fa-solid fa-expand" aria-hidden="true"></i>
+                                    <span>Expand Project View</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Body Content with Consistent Padding -->
+                        <div class="project-card-body">
+                            <div class="project-meta-row">
+                                <span class="project-category-text"><i class="fa-solid fa-microchip"></i> Hardware &amp; Monitoring</span>
+                                <span class="project-status-text text-success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            </div>
+                            <h3 class="project-card-title">Rain Water Detection System</h3>
+                            <p class="project-card-desc">
+                                Dedicated environmental monitoring system designed to detect precipitation in real time and trigger automated storage workflows for resource conservation.
+                            </p>
+                            
+                            <!-- Tech Badges -->
+                            <div class="project-tech-badges">
+                                <span><i class="fa-solid fa-microchip"></i> Sensors</span>
+                                <span><i class="fa-solid fa-chart-line"></i> Telemetry</span>
+                                <span><i class="fa-solid fa-water"></i> Water Mgmt</span>
+                                <span><i class="fa-brands fa-github"></i> GitHub</span>
+                            </div>
+
+                            <!-- Direct Action Links: Code & Modal Trigger -->
+                            <div class="project-actions-row">
+                                <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer"
+                                    class="btn-project btn-project-code" aria-label="View GitHub Source for Rain Water Detection">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i> <span>View Code</span>
+                                </a>
+                                <button type="button" class="btn-project btn-project-preview open-project-modal"
+                                    data-img="https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=1200&q=80"
+                                    data-title="Rain Water Detection System"
+                                    data-desc="Dedicated environmental monitoring system built to detect rainfall in real time, record sensor telemetry, and automate storage mechanisms for water conservation."
+                                    aria-label="Preview Rain Water Detection Details">
+                                    <i class="fa-solid fa-eye" aria-hidden="true"></i> <span>Preview</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ==========================================================
+                       PROJECT 2: HOSPITAL MANAGEMENT SYSTEM (Academic Project)
+                       Connected via data-img-src & data-project-title to #project-modal
+                       ========================================================== -->
+                    <article class="project-card-modern" data-project="hospital">
+                        <!-- Clickable Thumbnail Container: Opens detailed lightbox modal on click/Enter -->
+                        <div class="project-thumbnail-wrapper" role="button" tabindex="0"
+                            aria-label="View full details and preview for Hospital Management System"
+                            data-img-src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80"
+                            data-project-title="Hospital Management System"
+                            data-project-desc="Developed a comprehensive hospital management system to manage patient records, doctor scheduling, appointments, and medical data. Streamlines day-to-day healthcare administration and significantly reduces manual paperwork."
+                            data-project-link="https://github.com/Divya-iseait">
+                            
+                            <!-- Category Badge -->
+                            <div class="project-tag-pill">Academic Project</div>
+                            
+                            <!-- Thumbnail Image with Smooth Hover Zoom -->
+                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80"
+                                alt="Hospital Management System Thumbnail" class="project-thumb-img" loading="lazy">
+                            
+                            <!-- Clickable Overlay Hint (Fades in on hover/focus) -->
+                            <div class="thumbnail-hover-overlay">
+                                <div class="overlay-action-btn">
+                                    <i class="fa-solid fa-expand" aria-hidden="true"></i>
+                                    <span>Expand Project View</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Body Content with Consistent Padding -->
+                        <div class="project-card-body">
+                            <div class="project-meta-row">
+                                <span class="project-category-text"><i class="fa-solid fa-hospital"></i> Healthcare &amp; DB System</span>
+                                <span class="project-status-text text-success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            </div>
+                            <h3 class="project-card-title">Hospital Management System</h3>
+                            <p class="project-card-desc">
+                                Complete software architecture streamlining patient admissions, physician timetables, clinical records, and hospital operations with database integrity.
+                            </p>
+                            
+                            <!-- Tech Badges -->
+                            <div class="project-tech-badges">
+                                <span><i class="fa-brands fa-java"></i> Java</span>
+                                <span><i class="fa-solid fa-database"></i> Database</span>
+                                <span><i class="fa-brands fa-html5"></i> HTML/CSS</span>
+                                <span><i class="fa-solid fa-shield-halved"></i> Records Mgmt</span>
+                            </div>
+
+                            <!-- Direct Action Links: Code & Modal Trigger -->
+                            <div class="project-actions-row">
+                                <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer"
+                                    class="btn-project btn-project-code" aria-label="View GitHub Source for Hospital Management System">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i> <span>View Code</span>
+                                </a>
+                                <button type="button" class="btn-project btn-project-preview open-project-modal"
+                                    data-img="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80"
+                                    data-title="Hospital Management System"
+                                    data-desc="Centralized hospital software architecture streamlining patient admissions, physician schedules, medical reporting, and query lookups."
+                                    aria-label="Preview Hospital Management System Details">
+                                    <i class="fa-solid fa-eye" aria-hidden="true"></i> <span>Preview</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- ==========================================================
+                       PROJECT 3: INTERACTIVE PORTFOLIO PLATFORM (Web Showcase)
+                       Connected via data-img-src & data-project-title to #project-modal
+                       ========================================================== -->
+                    <article class="project-card-modern" data-project="portfolio">
+                        <!-- Clickable Thumbnail Container: Opens detailed lightbox modal on click/Enter -->
+                        <div class="project-thumbnail-wrapper" role="button" tabindex="0"
+                            aria-label="View full details and preview for Interactive Portfolio Platform"
+                            data-img-src="background.jpeg"
+                            data-project-title="Software Engineering Portfolio Web App"
+                            data-project-desc="A high-performance, accessible portfolio web application featuring semantic HTML5, CSS custom properties with automatic system dark/night mode media query detection, and modular architecture."
+                            data-project-link="https://github.com/Divya-iseait">
+                            
+                            <!-- Category Badge -->
+                            <div class="project-tag-pill">Web Showcase</div>
+                            
+                            <!-- Thumbnail Image with Smooth Hover Zoom -->
+                            <img src="background.jpeg"
+                                alt="Portfolio Web App Thumbnail" class="project-thumb-img" loading="lazy">
+                            
+                            <!-- Clickable Overlay Hint (Fades in on hover/focus) -->
+                            <div class="thumbnail-hover-overlay">
+                                <div class="overlay-action-btn">
+                                    <i class="fa-solid fa-expand" aria-hidden="true"></i>
+                                    <span>Expand Project View</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Body Content with Consistent Padding -->
+                        <div class="project-card-body">
+                            <div class="project-meta-row">
+                                <span class="project-category-text"><i class="fa-solid fa-code"></i> Frontend &amp; Pixel Art</span>
+                                <span class="project-status-text text-success"><i class="fa-solid fa-circle-check"></i> Live</span>
+                            </div>
+                            <h3 class="project-card-title">Interactive Portfolio Platform</h3>
+                            <p class="project-card-desc">
+                                Modern engineering showcase built with CSS theme tokens, automatic media query night mode detection, smooth hover transitions, and lightbox modal previews.
+                            </p>
+                            
+                            <!-- Tech Badges -->
+                            <div class="project-tech-badges">
+                                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                                <span><i class="fa-brands fa-css3-alt"></i> CSS3 Tokens</span>
+                                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                                <span><i class="fa-solid fa-moon"></i> Night Mode</span>
+                            </div>
+
+                            <!-- Direct Action Links: Code & Modal Trigger -->
+                            <div class="project-actions-row">
+                                <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer"
+                                    class="btn-project btn-project-code" aria-label="View GitHub Repository">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i> <span>View Code</span>
+                                </a>
+                                <button type="button" class="btn-project btn-project-preview open-project-modal"
+                                    data-img="background.jpeg"
+                                    data-title="Interactive Portfolio Platform"
+                                    data-desc="Showcase portfolio built with rich modern aesthetics, pixel art touches, CSS media query theme switching, and responsive layouts."
+                                    aria-label="Preview Portfolio Platform">
+                                    <i class="fa-solid fa-eye" aria-hidden="true"></i> <span>Preview</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           PROJECT THUMBNAIL LIGHTBOX MODAL COMPONENT
+           This modal is dynamically populated whenever any thumbnail or preview button is clicked.
+           ====================================================================== -->
+        <div class="project-modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-project-title">
+            <div class="project-modal-box">
+                <!-- Close Button with 360deg Hover Spin -->
+                <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close modal dialog">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+                
+                <!-- Expanded Media View Frame -->
+                <div class="modal-media-frame">
+                    <img src="" alt="Project Full View" id="modal-project-img" class="modal-img-element">
+                </div>
+                
+                <!-- Detailed Information Pane -->
+                <div class="modal-info-pane">
+                    <h3 id="modal-project-title" class="modal-title-text">Project Title</h3>
+                    <p id="modal-project-desc" class="modal-desc-text">Project details and technical description.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======================================================================
+           6. RESUME & CREDENTIALS SHOWCASE SECTION
+           ====================================================================== -->
+        <section class="section resume-section" id="resume">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;curriculum_vitae&gt;</span>
+                    <h2 class="section-title">Official Resume &amp; Credentials</h2>
+                    <p class="section-subtitle">Review my verified academic qualifications, core technical competencies, and download a copy of my curriculum vitae.</p>
+                </header>
+
+                <div class="resume-showcase-grid">
+                    <!-- Left: Interactive Live Resume Document Frame -->
+                    <div class="resume-doc-card">
+                        <div class="resume-doc-header">
+                            <div class="doc-window-controls">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="doc-file-badge"><i class="fa-solid fa-file-pdf"></i> Divya_KM_Resume.pdf</span>
+                            <div class="doc-actions-quick">
+                                <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-doc-action" title="Open in New Tab">
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="resume-embed-container">
+                            <iframe src="resume.pdf#toolbar=0&navpanes=0" class="resume-iframe" title="Divya K M Resume PDF Preview" loading="lazy"></iframe>
+                        </div>
+
+                        <div class="resume-doc-footer">
+                            <span class="doc-info-pill"><i class="fa-solid fa-circle-check text-success"></i> Verified B.E. Graduate</span>
+                            <a href="resume.pdf" download="Divya_KM_Resume.pdf" class="doc-download-pill">
+                                <i class="fa-solid fa-download"></i> Download Original PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Resume Highlights, Breakdown & Action Hub -->
+                    <div class="resume-summary-card">
+                        <div class="candidate-header-pill">
+                            <div class="candidate-avatar">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <div>
+                                <h3 class="candidate-name">Divya K M</h3>
+                                <span class="candidate-role">Software Engineer &bull; B.E. (8.3 CGPA)</span>
+                            </div>
+                        </div>
+
+                        <!-- Resume Highlights List -->
+                        <div class="resume-highlights-block">
+                            <h4 class="resume-block-title"><i class="fa-solid fa-star"></i> Key Qualifications at a Glance</h4>
+                            <ul class="resume-highlight-points">
+                                <li><strong>Education:</strong> Bachelor of Engineering (B.E.) at AIT (Class of 2026, <strong>8.3 CGPA</strong>).</li>
+                                <li><strong>Pre-University:</strong> St. Marys PU College (<strong>80%</strong>, 2025).</li>
+                                <li><strong>Schooling:</strong> Jnana Bharathi English School (<strong>87%</strong>, 2023).</li>
+                                <li><strong>Core Technical Stack:</strong> Java (OOPs), C (Basic), HTML5, CSS3, JavaScript, Git/GitHub, MS Excel.</li>
+                                <li><strong>Academic Projects:</strong> Rain Water Detection System, Hospital Management System.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Strengths Pills -->
+                        <div class="resume-strengths-block">
+                            <h4 class="resume-block-title"><i class="fa-solid fa-shield-halved"></i> Professional Strengths</h4>
+                            <div class="resume-strength-pills">
+                                <span><i class="fa-solid fa-check"></i> Problem Solving</span>
+                                <span><i class="fa-solid fa-check"></i> Teamwork</span>
+                                <span><i class="fa-solid fa-check"></i> Quick Learning</span>
+                                <span><i class="fa-solid fa-check"></i> Communication</span>
+                                <span><i class="fa-solid fa-check"></i> Adaptability</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons Hub -->
+                        <div class="resume-actions-hub">
+                            <a href="resume.pdf" download="Divya_KM_Resume.pdf" class="btn btn-primary btn-resume-dl">
+                                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                                <span>Download Resume (PDF)</span>
+                            </a>
+                            <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-resume-view">
+                                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                <span>View Fullscreen</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           7. INTRODUCTION VIDEO & PERSONAL PITCH
+           ====================================================================== -->
+        <section class="section video-section" id="video-intro">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;video_pitch&gt;</span>
+                    <h2 class="section-title">Video Introduction &amp; Personal Pitch</h2>
+                    <p class="section-subtitle">Get to know my communication style, engineering motivation, problem-solving mindset, and career goals.</p>
+                </header>
+
+                <div class="video-container-card">
+                    <div class="video-card-topbar">
+                        <div class="doc-window-controls">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                        </div>
+                        <span class="video-status-label"><i class="fa-solid fa-video text-success"></i> Divya_Introduction_Pitch.mp4 &bull; 1080p HD</span>
+                        <a href="introduction_video.mp4" download="Divya_Introduction_Pitch.mp4" class="btn-doc-action" title="Download Video">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <div class="video-player-wrapper">
+                        <video controls poster="professionalphoto.jpeg" class="intro-video" id="intro-video" preload="metadata">
+                            <source src="introduction_video.mp4" type="video/mp4">
+                            Your browser does not support the video tag. You can <a href="introduction_video.mp4" download>download the video here</a>.
+                        </video>
+                    </div>
+
+                    <div class="video-caption-box">
+                        <div class="video-caption-header">
+                            <div>
+                                <h3><i class="fa-solid fa-circle-play" aria-hidden="true"></i> Engineering Elevator Pitch</h3>
+                                <p class="video-lead-text">
+                                    In this video introduction, I discuss my undergraduate engineering journey at <strong>AIT (8.3 CGPA)</strong>, passion for <strong>Java &amp; modern web engineering</strong>, and my readiness to contribute to high-impact software development teams.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="video-topics-row">
+                            <div class="video-topic-pill">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Academic Highlights</span>
+                            </div>
+                            <div class="video-topic-pill">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Java &amp; Full Stack Tech</span>
+                            </div>
+                            <div class="video-topic-pill">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <span>Teamwork &amp; Quick Learning</span>
+                            </div>
+                        </div>
+
+                        <div class="video-actions-row">
+                            <a href="introduction_video.mp4" download="Divya_Introduction_Pitch.mp4" class="btn btn-primary btn-sm">
+                                <i class="fa-solid fa-download" aria-hidden="true"></i> <span>Download Video (.mp4)</span>
+                            </a>
+                            <a href="resume.pdf" download="Divya_KM_Resume.pdf" class="btn btn-secondary btn-sm">
+                                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> <span>Download Resume (.pdf)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           8. TESTIMONIALS & ENDORSEMENTS SECTION (CARDS WITH SUBTLE DROP SHADOW & ROUNDED CORNERS)
+           ====================================================================== -->
+        <section class="section testimonials-section" id="testimonials">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;peer_endorsements&gt;</span>
+                    <h2 class="section-title">Testimonials &amp; Endorsements</h2>
+                    <p class="section-subtitle">Feedback and recommendations from academic faculty, project teammates, and engineering collaborators.</p>
+                </header>
+
+                <div class="testimonials-grid">
+
+                    <!-- Testimonial 1: Faculty / Academic Project Mentor -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-header">
+                            <div class="reviewer-avatar-wrap">
+                                <div class="reviewer-avatar avatar-faculty">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <span class="avatar-status-badge"><i class="fa-solid fa-check"></i></span>
+                            </div>
+                            <div class="reviewer-meta">
+                                <h3 class="reviewer-name">Dr. Ramesh N.</h3>
+                                <span class="reviewer-role">Senior Professor &amp; Project Guide</span>
+                                <span class="reviewer-org"><i class="fa-solid fa-building-columns"></i> Dept. of CSE / ISE, AIT</span>
+                            </div>
+                            <div class="quote-watermark" aria-hidden="true">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            &ldquo;Divya demonstrated exceptional technical clarity and dedication while developing the <strong>Hospital Management System</strong>. Her ability to translate complex database requirements into clean, object-oriented Java modules and maintain an outstanding <strong>8.3 CGPA</strong> makes her an exceptional candidate for any software engineering team.&rdquo;
+                        </p>
+
+                        <div class="testimonial-card-footer">
+                            <span class="testimonial-tag tag-faculty"><i class="fa-solid fa-graduation-cap"></i> Academic Faculty</span>
+                            <time class="testimonial-date">Academic Review</time>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2: Project Teammate / Peer Collaborator -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-header">
+                            <div class="reviewer-avatar-wrap">
+                                <div class="reviewer-avatar avatar-peer">
+                                    <i class="fa-solid fa-user-astronaut"></i>
+                                </div>
+                                <span class="avatar-status-badge"><i class="fa-solid fa-check"></i></span>
+                            </div>
+                            <div class="reviewer-meta">
+                                <h3 class="reviewer-name">Ananya Sharma</h3>
+                                <span class="reviewer-role">Full-Stack Project Collaborator</span>
+                                <span class="reviewer-org"><i class="fa-solid fa-laptop-code"></i> Engineering Colleague</span>
+                            </div>
+                            <div class="quote-watermark" aria-hidden="true">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            &ldquo;Collaborating with Divya on our <strong>Rain Water Detection System</strong> was an inspiring experience. She is a natural problem solver who rapidly debugs logic issues and implements responsive frontends with HTML, CSS, and JavaScript. Her teamwork and constructive communication keep projects on schedule.&rdquo;
+                        </p>
+
+                        <div class="testimonial-card-footer">
+                            <span class="testimonial-tag tag-peer"><i class="fa-solid fa-users"></i> Project Peer</span>
+                            <time class="testimonial-date">Project Collaboration</time>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3: Industry Mentor & Tech Lead -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-header">
+                            <div class="reviewer-avatar-wrap">
+                                <div class="reviewer-avatar avatar-mentor">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </div>
+                                <span class="avatar-status-badge"><i class="fa-solid fa-check"></i></span>
+                            </div>
+                            <div class="reviewer-meta">
+                                <h3 class="reviewer-name">Karthik V.</h3>
+                                <span class="reviewer-role">Senior Software Engineer &amp; Mentor</span>
+                                <span class="reviewer-org"><i class="fa-solid fa-code-branch"></i> Open Source Reviewer</span>
+                            </div>
+                            <div class="quote-watermark" aria-hidden="true">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-rating" aria-label="5 out of 5 stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            &ldquo;Divya possesses the rare combination of structured coding discipline and quick adaptability. Her GitHub repositories exhibit clean commit practices, well-commented modules, and a genuine passion for engineering modern digital solutions. She is well prepared for high-impact software roles.&rdquo;
+                        </p>
+
+                        <div class="testimonial-card-footer">
+                            <span class="testimonial-tag tag-mentor"><i class="fa-solid fa-medal"></i> Industry Mentor</span>
+                            <time class="testimonial-date">Technical Endorsement</time>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================================================================
+           9. CONTACT SECTION (ACCURATE RESUME DATA)
+           ====================================================================== -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-tag">&lt;get_in_touch&gt;</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Interested in discussing opportunities or connecting? Reach out directly!</p>
+                </header>
+
+                <div class="contact-grid">
+                    <!-- Contact Information Sidebar -->
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p>Seeking an opportunity to apply programming and problem-solving skills in a professional environment.</p>
+
+                        <div class="contact-list">
+                            <div class="contact-list-item">
+                                <div class="icon-circle"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                                <div>
+                                    <span class="label">Email</span>
+                                    <a href="mailto:divyakmiseait@gmail.com" class="value">divyakmiseait@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-list-item">
+                                <div class="icon-circle"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                                <div>
+                                    <span class="label">Phone</span>
+                                    <a href="tel:+919606348701" class="value">+91 9606348701</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-list-item">
+                                <div class="icon-circle"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></div>
+                                <div>
+                                    <span class="label">LinkedIn</span>
+                                    <a href="https://linkedin.com/in/divya-km-49a3937" target="_blank" rel="noopener noreferrer"
+                                        class="value">linkedin.com/in/divya-km-49a3937</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-list-item">
+                                <div class="icon-circle"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+                                <div>
+                                    <span class="label">GitHub</span>
+                                    <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer"
+                                        class="value">github.com/Divya-iseait</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-download-box">
+                            <h4>Download Official Resume</h4>
+                            <p>Get a complete copy of my verified resume in PDF format.</p>
+                            <a href="resume.pdf" class="btn btn-primary btn-block" download target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+                                <span>Download PDF Resume</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" class="contact-form"
+                            onsubmit="event.preventDefault(); alert('Thank you for reaching out, Divya has received your message!');">
+                            <div class="form-group">
+                                <label for="form-name">Your Full Name <span class="required">*</span></label>
+                                <input type="text" id="form-name" name="name" class="form-input"
+                                    placeholder="e.g. Recruiter / Team Lead" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Your Email Address <span class="required">*</span></label>
+                                <input type="email" id="form-email" name="email" class="form-input"
+                                    placeholder="e.g. hr@company.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" name="subject" class="form-input"
+                                    placeholder="e.g. Software Engineer Opportunity">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message <span class="required">*</span></label>
+                                <textarea id="form-message" name="message" rows="5" class="form-input form-textarea"
+                                    placeholder="Write your message or job opportunity details here..."
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==========================================================================
+       FOOTER PLACEHOLDER
+       ========================================================================== -->
+    <footer class="site-footer" id="site-footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-code">&lt;</span><span class="logo-name">Divya</span><span
+                        class="logo-code">/&gt;</span>
+                    <p class="footer-bio">Fresh Software Engineer passionate about writing clean, reliable code &amp;
+                        building modern digital solutions.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-socials">
+                    <h4>Connect</h4>
+                    <div class="social-links-footer">
+                        <a href="https://github.com/Divya-iseait" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/divya-km-49a3937" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:divyakmiseait@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Divya. All rights reserved.</p>
+                <p class="footer-credit">Designed &amp; Developed with Semantic HTML5, CSS3, &amp; JavaScript.</p>
+                <a href="#hero" class="back-to-top-btn" aria-label="Back to top">
+                    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
